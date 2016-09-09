@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8DF0881D82E53E00E26138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8DF0871D82E53E00E26138 /* main.m */; };
+		FB8DF08B1D82E53E00E26138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8DF08A1D82E53E00E26138 /* AppDelegate.m */; };
+		FB8DF08E1D82E53E00E26138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8DF08D1D82E53E00E26138 /* ViewController.m */; };
+		FB8DF0911D82E53E00E26138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8DF08F1D82E53E00E26138 /* Main.storyboard */; };
+		FB8DF0941D82E53E00E26138 /* FaceFriend.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB8DF0921D82E53E00E26138 /* FaceFriend.xcdatamodeld */; };
+		FB8DF0961D82E53E00E26138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8DF0951D82E53E00E26138 /* Assets.xcassets */; };
+		FB8DF0991D82E53E00E26138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8DF0971D82E53E00E26138 /* LaunchScreen.storyboard */; };
+		FB8DF0A41D82E53E00E26138 /* FaceFriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8DF0A31D82E53E00E26138 /* FaceFriendTests.m */; };
+		FB8DF0AF1D82E53E00E26138 /* FaceFriendUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8DF0AE1D82E53E00E26138 /* FaceFriendUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8DF0A01D82E53E00E26138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8DF07B1D82E53E00E26138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8DF0821D82E53E00E26138;
+			remoteInfo = FaceFriend;
+		};
+		FB8DF0AB1D82E53E00E26138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8DF07B1D82E53E00E26138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8DF0821D82E53E00E26138;
+			remoteInfo = FaceFriend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB8DF0831D82E53E00E26138 /* FaceFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8DF0871D82E53E00E26138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8DF0891D82E53E00E26138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB8DF08A1D82E53E00E26138 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB8DF08C1D82E53E00E26138 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB8DF08D1D82E53E00E26138 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB8DF0901D82E53E00E26138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8DF0931D82E53E00E26138 /* FaceFriend.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceFriend.xcdatamodel; sourceTree = "<group>"; };
+		FB8DF0951D82E53E00E26138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB8DF0981D82E53E00E26138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB8DF09A1D82E53E00E26138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8DF09F1D82E53E00E26138 /* FaceFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceFriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8DF0A31D82E53E00E26138 /* FaceFriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceFriendTests.m; sourceTree = "<group>"; };
+		FB8DF0A51D82E53E00E26138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8DF0AA1D82E53E00E26138 /* FaceFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8DF0AE1D82E53E00E26138 /* FaceFriendUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceFriendUITests.m; sourceTree = "<group>"; };
+		FB8DF0B01D82E53E00E26138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8DF0801D82E53E00E26138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8DF09C1D82E53E00E26138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8DF0A71D82E53E00E26138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8DF07A1D82E53E00E26138 = {
+			isa = PBXGroup;
+			children = (
+				FB8DF0851D82E53E00E26138 /* FaceFriend */,
+				FB8DF0A21D82E53E00E26138 /* FaceFriendTests */,
+				FB8DF0AD1D82E53E00E26138 /* FaceFriendUITests */,
+				FB8DF0841D82E53E00E26138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8DF0841D82E53E00E26138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DF0831D82E53E00E26138 /* FaceFriend.app */,
+				FB8DF09F1D82E53E00E26138 /* FaceFriendTests.xctest */,
+				FB8DF0AA1D82E53E00E26138 /* FaceFriendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8DF0851D82E53E00E26138 /* FaceFriend */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DF0891D82E53E00E26138 /* AppDelegate.h */,
+				FB8DF08A1D82E53E00E26138 /* AppDelegate.m */,
+				FB8DF08C1D82E53E00E26138 /* ViewController.h */,
+				FB8DF08D1D82E53E00E26138 /* ViewController.m */,
+				FB8DF08F1D82E53E00E26138 /* Main.storyboard */,
+				FB8DF0951D82E53E00E26138 /* Assets.xcassets */,
+				FB8DF0971D82E53E00E26138 /* LaunchScreen.storyboard */,
+				FB8DF09A1D82E53E00E26138 /* Info.plist */,
+				FB8DF0921D82E53E00E26138 /* FaceFriend.xcdatamodeld */,
+				FB8DF0861D82E53E00E26138 /* Supporting Files */,
+			);
+			path = FaceFriend;
+			sourceTree = "<group>";
+		};
+		FB8DF0861D82E53E00E26138 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DF0871D82E53E00E26138 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8DF0A21D82E53E00E26138 /* FaceFriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DF0A31D82E53E00E26138 /* FaceFriendTests.m */,
+				FB8DF0A51D82E53E00E26138 /* Info.plist */,
+			);
+			path = FaceFriendTests;
+			sourceTree = "<group>";
+		};
+		FB8DF0AD1D82E53E00E26138 /* FaceFriendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8DF0AE1D82E53E00E26138 /* FaceFriendUITests.m */,
+				FB8DF0B01D82E53E00E26138 /* Info.plist */,
+			);
+			path = FaceFriendUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8DF0821D82E53E00E26138 /* FaceFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8DF0B31D82E53E00E26138 /* Build configuration list for PBXNativeTarget "FaceFriend" */;
+			buildPhases = (
+				FB8DF07F1D82E53E00E26138 /* Sources */,
+				FB8DF0801D82E53E00E26138 /* Frameworks */,
+				FB8DF0811D82E53E00E26138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceFriend;
+			productName = FaceFriend;
+			productReference = FB8DF0831D82E53E00E26138 /* FaceFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8DF09E1D82E53E00E26138 /* FaceFriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8DF0B61D82E53E00E26138 /* Build configuration list for PBXNativeTarget "FaceFriendTests" */;
+			buildPhases = (
+				FB8DF09B1D82E53E00E26138 /* Sources */,
+				FB8DF09C1D82E53E00E26138 /* Frameworks */,
+				FB8DF09D1D82E53E00E26138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8DF0A11D82E53E00E26138 /* PBXTargetDependency */,
+			);
+			name = FaceFriendTests;
+			productName = FaceFriendTests;
+			productReference = FB8DF09F1D82E53E00E26138 /* FaceFriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB8DF0A91D82E53E00E26138 /* FaceFriendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8DF0B91D82E53E00E26138 /* Build configuration list for PBXNativeTarget "FaceFriendUITests" */;
+			buildPhases = (
+				FB8DF0A61D82E53E00E26138 /* Sources */,
+				FB8DF0A71D82E53E00E26138 /* Frameworks */,
+				FB8DF0A81D82E53E00E26138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8DF0AC1D82E53E00E26138 /* PBXTargetDependency */,
+			);
+			name = FaceFriendUITests;
+			productName = FaceFriendUITests;
+			productReference = FB8DF0AA1D82E53E00E26138 /* FaceFriendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8DF07B1D82E53E00E26138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ronghua_li;
+				TargetAttributes = {
+					FB8DF0821D82E53E00E26138 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FB8DF09E1D82E53E00E26138 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB8DF0821D82E53E00E26138;
+					};
+					FB8DF0A91D82E53E00E26138 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FB8DF0821D82E53E00E26138;
+					};
+				};
+			};
+			buildConfigurationList = FB8DF07E1D82E53E00E26138 /* Build configuration list for PBXProject "FaceFriend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8DF07A1D82E53E00E26138;
+			productRefGroup = FB8DF0841D82E53E00E26138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8DF0821D82E53E00E26138 /* FaceFriend */,
+				FB8DF09E1D82E53E00E26138 /* FaceFriendTests */,
+				FB8DF0A91D82E53E00E26138 /* FaceFriendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8DF0811D82E53E00E26138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DF0991D82E53E00E26138 /* LaunchScreen.storyboard in Resources */,
+				FB8DF0961D82E53E00E26138 /* Assets.xcassets in Resources */,
+				FB8DF0911D82E53E00E26138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8DF09D1D82E53E00E26138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8DF0A81D82E53E00E26138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8DF07F1D82E53E00E26138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DF08E1D82E53E00E26138 /* ViewController.m in Sources */,
+				FB8DF08B1D82E53E00E26138 /* AppDelegate.m in Sources */,
+				FB8DF0941D82E53E00E26138 /* FaceFriend.xcdatamodeld in Sources */,
+				FB8DF0881D82E53E00E26138 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8DF09B1D82E53E00E26138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DF0A41D82E53E00E26138 /* FaceFriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8DF0A61D82E53E00E26138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8DF0AF1D82E53E00E26138 /* FaceFriendUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8DF0A11D82E53E00E26138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8DF0821D82E53E00E26138 /* FaceFriend */;
+			targetProxy = FB8DF0A01D82E53E00E26138 /* PBXContainerItemProxy */;
+		};
+		FB8DF0AC1D82E53E00E26138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8DF0821D82E53E00E26138 /* FaceFriend */;
+			targetProxy = FB8DF0AB1D82E53E00E26138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8DF08F1D82E53E00E26138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8DF0901D82E53E00E26138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8DF0971D82E53E00E26138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8DF0981D82E53E00E26138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8DF0B11D82E53E00E26138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB8DF0B21D82E53E00E26138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8DF0B41D82E53E00E26138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.FaceFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB8DF0B51D82E53E00E26138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FaceFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.FaceFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB8DF0B71D82E53E00E26138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceFriendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.FaceFriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceFriend.app/FaceFriend";
+			};
+			name = Debug;
+		};
+		FB8DF0B81D82E53E00E26138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FaceFriendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.FaceFriendTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceFriend.app/FaceFriend";
+			};
+			name = Release;
+		};
+		FB8DF0BA1D82E53E00E26138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceFriendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.FaceFriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceFriend;
+			};
+			name = Debug;
+		};
+		FB8DF0BB1D82E53E00E26138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FaceFriendUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitszcerc.FaceFriendUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FaceFriend;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8DF07E1D82E53E00E26138 /* Build configuration list for PBXProject "FaceFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8DF0B11D82E53E00E26138 /* Debug */,
+				FB8DF0B21D82E53E00E26138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8DF0B31D82E53E00E26138 /* Build configuration list for PBXNativeTarget "FaceFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8DF0B41D82E53E00E26138 /* Debug */,
+				FB8DF0B51D82E53E00E26138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8DF0B61D82E53E00E26138 /* Build configuration list for PBXNativeTarget "FaceFriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8DF0B71D82E53E00E26138 /* Debug */,
+				FB8DF0B81D82E53E00E26138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB8DF0B91D82E53E00E26138 /* Build configuration list for PBXNativeTarget "FaceFriendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8DF0BA1D82E53E00E26138 /* Debug */,
+				FB8DF0BB1D82E53E00E26138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB8DF0921D82E53E00E26138 /* FaceFriend.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB8DF0931D82E53E00E26138 /* FaceFriend.xcdatamodel */,
+			);
+			currentVersion = FB8DF0931D82E53E00E26138 /* FaceFriend.xcdatamodel */;
+			path = FaceFriend.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB8DF07B1D82E53E00E26138 /* Project object */;
+}
