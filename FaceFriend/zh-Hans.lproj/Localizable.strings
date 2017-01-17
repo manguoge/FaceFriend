@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  FaceFriend
+
+  Created by 
+ on 16/9/20.
+  Copyright © 2016年 ronghua_li. All rights reserved.
+*/
+FaceFriend="脸友";
+TakePhoto="拍照";
+Album="相册";
+Me="我";
+
+Shoot="拍摄";
+Switch="切换镜头";
+PhotoGraph="拍照";
+
+GetTags="标签";
+Share="分享";
+"FaceFriend is a good APP!"="FaceFriend是一个好APP!";
+Contacts="联系人";
+FriendCircle="朋友圈";
+Fans="粉丝";
+Location="定位";
+"You donn't open the Location function!"="您没有开启定位功能！";
+OK="确定";
+"User Information"="用户信息";
+Exit="退出";
+Name="昵称";
+Gender="性别";
+Signature="签名";
+Cancel="取消";
+Famale="女";
+Male="男";
+Tip="提示";
+"Click 'Tag' at first,and then click 'Album'."="等待获取完后台数据之后，再点击'相册'按钮";//先点击'标签'按钮，
+Photo="照片";
+Back="返回";
+Chat="聊天";
+"Account and Password"="账号密码";
+"Using Help"="使用帮助";
+"Feedback"="反馈";
+"Score for me"="给我评分";
+"About us"="关于我们";
+"Account:"="账号:";
+"Password:"="密码:";
+Password="密码";
+Login="登录";
+"Register"="注册";
+"Forget Password"="忘记密码";
+"Email/TelePhone"="邮箱/手机";
+"Set Account:"="设置账户：";
+"Set Password:"="设置密码:";
+"Confirm Password:"="确认密码：";
+"Confirm Password"="确认密码";
+"Seek Password"="找回密码";
+"Verification Code:"="验证码:";
+"Verification Code"="验证码";
+"New Password:"="新密码:";
+"Confirm Code"="验证码";
+Next="下一步";
+Finish="完成";
+"Upload Facephoto"="上传人脸照片";
+

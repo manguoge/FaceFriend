@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  FaceFriend
+//
+//  Created by comfouriertech on 16/9/10.
+//  Copyright © 2016年 ronghua_li. All rights reserved.
+//
+#import "TencentYoutuYun/Auth.h"
+#import "TencentYoutuYun/Conf.h"
+#import "TencentYoutuYun/TXQcloudFrSDK.h"
+#import "TencentYoutuYun/vendor/NSData+Base64.h"
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#endif /* PrefixHeader_pch */
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import "Configure.h"
+
+// 自定义Log
+#ifdef DEBUG // 调试
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else // 发布打包
+#define NSLog(...)
+#endif
+
+#endif
