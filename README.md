@@ -1,4 +1,4 @@
-# FaceFriend0.99
+# FaceFriend
 ## APP的主要功能有三点
 ### 1.美颜相机
 ### 2.相册分类管理
